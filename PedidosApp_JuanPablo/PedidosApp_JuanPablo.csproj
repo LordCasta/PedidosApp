@@ -46,11 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntregaBicicleta.cs" />
     <Compile Include="EntregaCamion.cs" />
     <Compile Include="EntregaDron.cs" />
     <Compile Include="EntregaFactory.cs" />
     <Compile Include="EntregaMoto.cs" />
     <Compile Include="IMetodoEntrega.cs" />
+    <Compile Include="ListadoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListadoForm.Designer.cs">
+      <DependentUpon>ListadoForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pedido.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

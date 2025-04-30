@@ -12,11 +12,12 @@ namespace PedidosApp_JuanPablo
         {
             if (tipoProducto == "tecnología" && urgente)
                 return new EntregaDron();
-            else if (tipoProducto == "accesorio")
+            else if (tipoProducto == "accesorio" && urgente)
                 return new EntregaMoto();
             else if (tipoProducto == "componente" || peso > 10)
                 return new EntregaCamion();
-            
+            else if (tipoProducto == "accesorio")
+                return new EntregaBicicleta();
             else
                 return new EntregaMoto(); // valor por defecto
         }

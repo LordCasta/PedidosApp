@@ -14,6 +14,7 @@ namespace PedidosApp_JuanPablo
     {
         public ListadoForm()
         {
+            InitializeComponent();
             LlenarDataGridView();
             LlenarComboBox();
         }

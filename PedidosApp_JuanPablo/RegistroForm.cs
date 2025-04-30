@@ -52,8 +52,8 @@ namespace PedidosApp_JuanPablo
 
         private void btnNewForm_Click(object sender, EventArgs e)
         {
-            RegistroForm registroForm = new RegistroForm();
-            registroForm.Show();
+            ListadoForm listadoForm = new ListadoForm();
+            listadoForm.Show();
         }
     }
 }

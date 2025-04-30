@@ -191,7 +191,7 @@ namespace PedidosApp_JuanPablo
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
+            Load += RegistroForm_Load;
             ((System.ComponentModel.ISupportInitialize)nudPeso).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudDistancia).EndInit();
             ResumeLayout(false);
